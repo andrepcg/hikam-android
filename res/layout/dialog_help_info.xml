@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/dialog_back" android:layout_width="UNKNOWN_DATA_0x7f0500d3" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/dialog_content" android:paddingTop="10dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_white" android:id="@+id/help_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginRight="@dimen/inner_margin_right" android:text="@string/login_show_info" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</LinearLayout>

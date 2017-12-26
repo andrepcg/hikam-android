@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jwkj.widget.BounceScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/main_bg" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="vertical" android:background="@drawable/corner_tiao_single_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/item_left_right_margin" android:layout_marginTop="@dimen/item_group_margin_top" android:layout_marginRight="@dimen/item_left_right_margin">
+            <RelativeLayout android:id="@+id/basic_info" android:background="@drawable/tiao_bg_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500b0" android:layout_margin="1dp">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/basic_Info" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inner_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/imagedes" />
+            </RelativeLayout>
+            <ImageView android:background="@color/gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" />
+            <RelativeLayout android:id="@+id/alarm_control" android:background="@drawable/tiao_bg_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500b0" android:layout_margin="1dp">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/alarm_control" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inner_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/imagedes" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.jwkj.widget.BounceScrollView>

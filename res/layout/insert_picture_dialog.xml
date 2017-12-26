@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/pop_up_menu_bg_white" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+        <Button android:id="@+id/fromcamera" android:background="@drawable/set_laguage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp" android:text="@string/camara" />
+        <Button android:id="@+id/fromgallery" android:background="@drawable/set_laguage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp" android:text="@string/gallery" android:layout_below="@+id/fromcamera" />
+        <Button android:id="@+id/cancelinsert" android:background="@drawable/set_laguage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/cancel" android:layout_below="@+id/fromgallery" />
+    </RelativeLayout>
+</LinearLayout>

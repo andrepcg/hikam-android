@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+        <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ir_control" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/layout_title">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+            <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/white" android:id="@+id/show_list_btn" android:background="@drawable/bg_infrared_set_wifi" android:layout_width="UNKNOWN_DATA_0x7f0500a0" android:layout_height="UNKNOWN_DATA_0x7f05009f" android:text="@string/set_wifi" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginBottom="@dimen/item_group_margin_top" android:layout_weight="3.0">
+            <Button android:id="@+id/top_btn" android:background="@drawable/bg_infrared_top" android:layout_width="UNKNOWN_DATA_0x7f05009e" android:layout_height="UNKNOWN_DATA_0x7f05009e" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <Button android:id="@+id/bottom_btn" android:background="@drawable/bg_infrared_bottom" android:layout_width="UNKNOWN_DATA_0x7f05009e" android:layout_height="UNKNOWN_DATA_0x7f05009e" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <Button android:id="@+id/left_btn" android:background="@drawable/bg_infrared_left" android:layout_width="UNKNOWN_DATA_0x7f05009e" android:layout_height="UNKNOWN_DATA_0x7f05009e" android:layout_marginLeft="@dimen/item_group_margin_top" android:layout_marginRight="@dimen/inner_margin_right" android:layout_toLeftOf="@+id/top_btn" android:layout_centerVertical="true" />
+            <Button android:id="@+id/right_btn" android:background="@drawable/bg_infrared_right" android:layout_width="UNKNOWN_DATA_0x7f05009e" android:layout_height="UNKNOWN_DATA_0x7f05009e" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginRight="@dimen/item_group_margin_top" android:layout_toRightOf="@+id/top_btn" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/hide_list_btn" android:background="#00000000" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0" />
+        <RelativeLayout android:id="@+id/layout_list_right" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginTop="@dimen/title_height" android:layout_weight="3.0">
+            <ListView android:id="@+id/list_wifi" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="0x0" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text_no_wifi" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_wifi_list" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

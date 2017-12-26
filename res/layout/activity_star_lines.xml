@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <com.jwkj.widget.StarLinesView android:id="@+id/slView" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:background="@drawable/tools_pannel" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/img_left" android:background="0x1080062" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="UNKNOWN_DATA_0x5201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/left_a" />
+        <ImageView android:id="@+id/img_right" android:background="0x1080062" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="UNKNOWN_DATA_0x5201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/right_a" />
+        <ImageView android:id="@+id/img_reset" android:background="0x1080062" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="UNKNOWN_DATA_0x5201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/reset" />
+        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/save" />
+    </LinearLayout>
+</RelativeLayout>

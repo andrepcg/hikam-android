@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/dialog_back" android:layout_width="UNKNOWN_DATA_0x7f050104" android:layout_height="UNKNOWN_DATA_0x6401"
+    <RelativeLayout android:id="@+id/dialog_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050103">
+        <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/dialog_title_color" android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/operator" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@+id/separator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/list_item_line" android:scaleType="center" />
+    <RelativeLayout android:id="@+id/dialog_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/content_text" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/selector_dialog_margin" android:cacheColorHint="0x0" android:divider="@drawable/list_item_line" android:dividerHeight="@dimen/selector_dialog_separator_height" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    </RelativeLayout>
+</RelativeLayout>

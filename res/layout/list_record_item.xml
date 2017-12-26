@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bearLin" android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ef">
+        <TextView android:textSize="19sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rName" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="10dp" android:text="sdsdsd" android:singleLine="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

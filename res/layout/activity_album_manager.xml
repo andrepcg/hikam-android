@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <RelativeLayout android:orientation="vertical" android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+            <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/chat_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/capture" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/layout_editor" android:background="@drawable/tab_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/ll_all" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:layout_toRightOf="@+id/cancel_btn">
+                <ImageView android:id="@+id/img_all" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:src="@drawable/check_off" />
+                <TextView android:textSize="14sp" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/album_all" />
+            </LinearLayout>
+            <ImageView android:textColor="@color/text_color_white" android:id="@+id/cancel_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:textColor="@color/text_color_white" android:id="@+id/delete_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/delete" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gridView" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="4dp" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x3" android:layout_below="@id/toolbar" />
+    <RelativeLayout android:id="@+id/rl_gallery" android:background="0x106000c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager android:id="@+id/vp" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@+id/img_back" android:padding="@dimen/tab_btn_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_back" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

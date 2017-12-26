@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/update_progress" android:layout_width="UNKNOWN_DATA_0xbc01" android:layout_height="UNKNOWN_DATA_0x501" android:max="100" android:progress="0" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@*style/Widget.ProgressBar.Horizontal" />
+</RelativeLayout>

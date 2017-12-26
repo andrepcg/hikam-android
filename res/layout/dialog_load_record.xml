@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/load_record_bg" android:layout_width="UNKNOWN_DATA_0xdc01" android:layout_height="UNKNOWN_DATA_0x8201">
+    <ImageView android:id="@+id/load_record_img" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginTop="10dp" android:src="@anim/load_record_anim" android:layout_centerHorizontal="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/loading" android:layout_below="@+id/load_record_img" android:layout_centerHorizontal="true" />
+</RelativeLayout>

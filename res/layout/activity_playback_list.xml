@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="vertical" android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+        <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playback" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/header_bar" android:background="@drawable/set_laguage" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500f1" android:layout_below="@+id/layout_title">
+        <com.jwkj.widget.HeaderView android:id="@+id/header_img" android:layout_width="UNKNOWN_DATA_0x7f050074" android:layout_height="UNKNOWN_DATA_0x7f050074" android:layout_margin="10dp" android:src="@drawable/header_icon" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/contact_pro" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/header_img">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/contactName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1111" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/contactNo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2222" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/search_bar" android:background="@drawable/set_laguage" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500f0" android:layout_below="@+id/header_bar">
+        <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/search_one_day" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:text="@string/one_day" android:layout_weight="1.0" />
+        <ImageView android:background="@color/gray" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="4dp" android:layout_marginBottom="3dp" />
+        <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/search_three_day" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:text="@string/three_day" android:layout_weight="1.0" />
+        <ImageView android:background="@color/gray" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="4dp" android:layout_marginBottom="3dp" />
+        <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/search_one_month" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:text="@string/one_month" android:layout_weight="1.0" />
+        <ImageView android:background="@color/gray" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginTop="4dp" android:layout_marginBottom="3dp" />
+        <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/search_detail" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:text="@string/customize" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/cursor_bar" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501" android:layout_below="@id/search_bar">
+        <ImageView android:id="@+id/cursor" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x201" android:layout_marginLeft="20dp" android:src="#000000" android:scaleType="matrix" />
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/record_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cursor_bar" />
+    <include layout="@layout/play_back_date_pick" />
+</RelativeLayout>

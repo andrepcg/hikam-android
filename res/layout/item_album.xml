@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/placeHolder" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/check_off" android:layout_alignLeft="@+id/img" android:layout_alignTop="@+id/img" />
+    <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050098" android:src="@drawable/ic_launcher" android:scaleType="fitXY" />
+    <ImageView android:id="@+id/tag" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/check_off" android:layout_alignLeft="@+id/img" android:layout_alignTop="@+id/img" />
+    <ImageView android:id="@+id/img_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/monitor_ipc" android:scaleType="fitXY" android:layout_centerInParent="true" />
+</RelativeLayout>

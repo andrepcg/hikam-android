@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="message">res/raw/message.mp3</raw>
+    <raw name="pull_event">res/raw/pull_event.mp3</raw>
+    <raw name="refreshing_sound">res/raw/refreshing_sound.mp3</raw>
+    <raw name="reset_sound">res/raw/reset_sound.mp3</raw>
+</resources>

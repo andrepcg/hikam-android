@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050068"
+        <RelativeLayout android:id="@+id/layout_header" android:layout_width="UNKNOWN_DATA_0x7f050064" android:layout_height="UNKNOWN_DATA_0x7f050063" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <com.jwkj.widget.HeaderView android:id="@+id/user_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/header_icon" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <ImageView android:id="@+id/header_icon_play" android:layout_width="UNKNOWN_DATA_0x7f050066" android:layout_height="UNKNOWN_DATA_0x7f050066" android:src="@drawable/ic_header_play" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_toLeftOf="@+id/layout_defence_btn" android:layout_toRightOf="@+id/layout_header">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_large" android:textStyle="bold" android:textColor="@color/text_color_black" android:id="@+id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginRight="@dimen/inner_margin_right" android:text="盛大" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <ImageView android:id="@+id/login_type" android:layout_width="UNKNOWN_DATA_0x7f05006c" android:layout_height="UNKNOWN_DATA_0x7f05006c" android:layout_marginLeft="@dimen/inner_margin_left" android:src="@drawable/ic_device_type_ipc" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_gray" android:id="@+id/online_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="(离线)" android:layout_toRightOf="@+id/login_type" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/layout_defence_btn" android:layout_width="UNKNOWN_DATA_0x7f050062" android:layout_height="UNKNOWN_DATA_0x7f050061" android:layout_marginRight="@dimen/inner_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/image_defence_state" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f050067" android:layout_height="UNKNOWN_DATA_0x7f050067" android:src="@drawable/ic_defence_on" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@+id/progress_defence" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_arrow" android:indeterminateDuration="560000" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <TextView android:textSize="10sp" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/msgCount" android:background="@drawable/msgcount_back" android:paddingTop="1dp" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:text="1" android:layout_toRightOf="@+id/layout_header" />
+    </RelativeLayout>
+</RelativeLayout>

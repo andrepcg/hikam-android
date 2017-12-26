@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+        <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tv_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_set" android:layout_centerInParent="true" />
+        <TextView android:textColor="0x106000b" android:id="@+id/tv_addr" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="push Addr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="0x106000b" android:id="@+id/tv_addr2" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="feedback addr" android:layout_toLeftOf="@+id/tv_addr" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/set_laguage" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050073">
+        <com.jwkj.widget.HeaderView android:id="@+id/header_img" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f050074" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:src="@drawable/header_icon" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/contact_pro" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/header_img">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/contactName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1111" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <Button android:id="@id/test" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="获取" android:layout_toLeftOf="@+id/viewDeviceVersionBtn" />
+                <TextView android:id="@+id/test_tv" android:visibility="gone" android:scrollbars="vertical" android:layout_width="UNKNOWN_DATA_0x7f050071" android:layout_height="wrap_content" android:text="有效期获取结果：" />
+                <Button android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_gray" android:id="@+id/viewDeviceVersionBtn" android:background="@drawable/btn_gray" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/inner_margin_right" android:layout_marginBottom="10dp" android:text="@string/device_info" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/fragContainer" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0" />
+</LinearLayout>

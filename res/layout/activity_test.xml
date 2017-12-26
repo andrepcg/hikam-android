@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.jwkj.widget.HeaderView android:id="@+id/header_img" android:layout_width="UNKNOWN_DATA_0x7f05006a" android:layout_height="UNKNOWN_DATA_0x7f05006a" />
+</RelativeLayout>

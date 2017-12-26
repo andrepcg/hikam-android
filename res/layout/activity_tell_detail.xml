@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="vertical" android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+        <ImageView android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/text_color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tell_detail" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/info_bar" android:background="@drawable/set_laguage" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050128" android:layout_below="@+id/layout_title">
+        <com.jwkj.widget.HeaderView android:id="@+id/header_img" android:layout_width="UNKNOWN_DATA_0x7f050119" android:layout_height="UNKNOWN_DATA_0x7f050119" android:layout_margin="10dp" android:src="@drawable/header_icon" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/contact_pro" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/header_img">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1111" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/tell_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2222" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView android:id="@+id/list_tell_detial" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:cacheColorHint="0x0" android:divider="@color/gray" android:dividerHeight="@dimen/separator_height" android:layout_weight="1.0" android:layout_above="@+id/msg_layout" android:layout_below="@+id/info_bar" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/msg_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f05004c" android:layout_alignParentBottom="true"
+        <LinearLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/call" android:background="@drawable/selector_bottom_bar_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:id="@+id/separator_one" android:background="@drawable/separator_bottom_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/monitor" android:background="@drawable/selector_bottom_bar_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/monitor" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/message" android:background="@drawable/selector_bottom_bar_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/separator_two" android:background="@drawable/separator_bottom_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/add_contact" android:background="@drawable/selector_bottom_bar_button" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_contact" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/dialog_input_mask" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/dialog_input" />
+    </RelativeLayout>
+</RelativeLayout>

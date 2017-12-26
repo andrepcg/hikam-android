@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050132"
+    <RelativeLayout android:id="@+id/rl_img" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f050132">
+        <ImageView android:id="@+id/img" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="match_parent" android:src="@drawable/alarm_ss" android:scaleType="centerInside" />
+        <ImageView android:id="@+id/img_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/monitor_ipc" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050109" android:layout_toRightOf="@+id/rl_img">
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/allarm_time" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2012-12-03 16:22" />
+        <RelativeLayout android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/mm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allarm_robot" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/robot_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11939" android:layout_toRightOf="@+id/mm" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/nn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allarm_type" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/allarm_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/motion_detection" android:layout_toRightOf="@+id/nn" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/layout_extern" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text_group" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="防区:大厅" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text_item" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="通道:1" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_blue" android:id="@+id/tv_time_tip" android:padding="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2min ago" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/a_list_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9601">
+    <com.jwkj.widget.HKHorizontalSlideView android:id="@+id/swipe" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/sdfs" android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.jwkj.widget.HeaderView android:id="@+id/user_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/heard_icon_1" android:scaleType="fitXY" />
+                <ImageView android:id="@+id/header_icon_play" android:layout_width="UNKNOWN_DATA_0x7f050066" android:layout_height="UNKNOWN_DATA_0x7f050066" android:src="@drawable/a_list_play" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/text_size_large" android:textStyle="bold" android:textColor="@color/text_color_white" android:id="@+id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginTop="@dimen/inner_margin_right" android:text="盛大" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_green" android:id="@+id/online_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offline_state" android:layout_below="@+id/user_name" android:layout_alignLeft="@+id/user_name" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="match_parent" android:layout_weight="1.0"
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <com.jwkj.widget.CompatLinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/alarm_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/alarm_history_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_list_alarmhistory" />
+                                <ImageView android:id="@+id/alarm_history_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5dp" android:src="@drawable/a_list_reddot" android:layout_alignTop="@+id/alarm_history_icon" android:layout_alignRight="@+id/alarm_history_icon" />
+                            </RelativeLayout>
+                            <TextView android:textSize="12sp" android:textColor="@color/a_list_text_color" android:id="@+id/alarm_history_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alarm_History" />
+                        </com.jwkj.widget.CompatLinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/alarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <RelativeLayout android:id="@+id/layout_defence_btn" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/image_defence_state" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_list_alarm_on" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                                <ProgressBar android:id="@+id/progress_defence" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_arrow" android:indeterminateDuration="560000" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010079" />
+                            </RelativeLayout>
+                            <TextView android:textSize="12sp" android:textColor="@color/a_list_text_color" android:id="@+id/alarm_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allarm" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:src="@drawable/a_list_line" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/play_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <ImageView android:id="@+id/playback_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_list_playback" />
+                            <TextView android:textSize="12sp" android:textColor="@color/a_list_text_color" android:id="@+id/playback_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playback" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <ImageView android:id="@+id/setting_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_list_setting" />
+                            <TextView android:textSize="12sp" android:textColor="@color/a_list_text_color" android:id="@+id/setting_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/ll_menu" android:background="@drawable/bg_delete_red" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x9601">
+            <ImageView android:id="@+id/trash" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:src="@drawable/trash" />
+            <TextView android:textSize="15sp" android:textColor="#ffffff" android:id="@+id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" />
+        </LinearLayout>
+    </com.jwkj.widget.HKHorizontalSlideView>
+</LinearLayout>

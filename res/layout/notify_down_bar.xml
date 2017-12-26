@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/status_bar_latest_event_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon" android:layout_width="UNKNOWN_DATA_0x7f0500d8" android:layout_height="UNKNOWN_DATA_0x7f0500d8" android:layout_marginLeft="@dimen/inner_margin_left" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0500d8" android:layout_weight="1.0">
+        <ProgressBar android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" android:max="100" android:progress="50" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010078" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/down_complete_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="下载完成，点击更新。" android:layout_below="@+id/progress_bar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f0500d7" android:layout_height="UNKNOWN_DATA_0x7f0500d8" android:layout_marginRight="@dimen/inner_margin_right">
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/progress_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="90%" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

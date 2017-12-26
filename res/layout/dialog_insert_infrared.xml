@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/remind" android:layout_width="UNKNOWN_DATA_0x7f050086" android:layout_height="UNKNOWN_DATA_0x7f050087">
+    <ImageView android:id="@+id/img_insert_infrared" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/insert" />
+    <TextView android:textColor="@color/text_color_black" android:id="@+id/tv_insert_infrared" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remind_insert_infrared" android:layout_centerInParent="true" />
+    <Button android:textColor="@color/text_color_white" android:id="@+id/bt_back" android:background="@drawable/hear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/no_hear" android:layout_below="@+id/tv_insert_infrared" android:layout_centerHorizontal="true" />
+</RelativeLayout>

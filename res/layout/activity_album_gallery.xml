@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager android:id="@+id/vp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@+id/img_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_back" />
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/text_color_white" android:id="@+id/tv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_marginBottom="30dp" android:text="@string/saveto" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

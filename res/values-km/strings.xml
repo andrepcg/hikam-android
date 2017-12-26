@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_unknown_issue">%1$s កំពុងមានបញ្ហាជាមួយសេវាកម្ម Google Play។ ប្រសិនបើបញ្ហានេះនៅតែបន្តកើតមាន សូមទាក់ទងអ្នកអភិវឌ្ឍន៍ដើម្បីទទួលបានជំនួយ។</string>
+</resources>

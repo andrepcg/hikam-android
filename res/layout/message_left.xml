@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_sendtime" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/chat_text_date_style" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <com.jwkj.widget.HeaderView android:id="@+id/iv_userhead" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500cc" android:layout_height="UNKNOWN_DATA_0x7f0500cc" android:src="@drawable/header_icon" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:id="@+id/tv_chatcontent" android:background="@drawable/chatfrom_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/iv_userhead" style="@style/chat_content_date_style" />
+        <TextView android:id="@+id/tv_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/tv_chatcontent" android:layout_below="@+id/iv_userhead" android:layout_alignParentLeft="true" style="@style/chat_text_name_style" />
+    </RelativeLayout>
+</LinearLayout>

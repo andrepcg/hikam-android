@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <TextView android:textSize="@dimen/text_size" android:textColor="#000" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="中国" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size" android:textColor="#000" android:id="@+id/county_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40dp" android:text="86" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

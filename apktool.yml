@@ -1,0 +1,30 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: HiKam_v2.5.98_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '22'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  version.xml: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/jboss/netty/container/spring/beans.xml: '8'
+  pinyindb/pinyin_gwoyeu_mapping.xml: '8'
+  pinyindb/pinyin_mapping.xml: '8'
+  pinyindb/unicode_to_hanyu_pinyin.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '198'
+  versionName: 2.5.98

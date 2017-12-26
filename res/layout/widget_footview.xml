@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rl_loadview" android:padding="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_load" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_data" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rl_loaddone" android:padding="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_done" />
+    </RelativeLayout>
+</RelativeLayout>

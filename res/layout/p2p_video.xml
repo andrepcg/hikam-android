@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <AbsoluteLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.p2p.core.P2PView android:id="@+id/pView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+            <ImageView android:id="@+id/mask_p2p_view" android:background="#000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/mask" android:scaleType="center" />
+        </RelativeLayout>
+        <SurfaceView android:id="@+id/local_surface_camera" android:layout_width="UNKNOWN_DATA_0x7f0500ea" android:layout_height="UNKNOWN_DATA_0x7f0500e9" />
+        <ImageView android:id="@+id/mask_camera" android:background="#000000" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0500ea" android:layout_height="UNKNOWN_DATA_0x7f0500e9" android:src="@drawable/mask" android:scaleType="center" />
+    </AbsoluteLayout>
+    <RelativeLayout android:id="@+id/control_bottom" android:layout_width="UNKNOWN_DATA_0x7f0500e8" android:layout_height="UNKNOWN_DATA_0x7f0500e7" android:layout_marginBottom="@dimen/p2p_control_bar_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/control_bar_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/close_mike" android:background="@drawable/selector_play_back" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:src="@drawable/btn_no_sound" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/switch_camera" android:background="@drawable/selector_play_back" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:src="@drawable/btn_switchcam" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/hungup" android:background="@drawable/selector_play_back" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:src="@drawable/btn_call_hungup" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

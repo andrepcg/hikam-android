@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ce">
+        <ImageView android:id="@+id/wifi_type" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:src="@drawable/lock" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0500ce" android:layout_marginLeft="@dimen/inner_margin_left" android:text="afdsfsd" android:layout_toRightOf="@+id/wifi_type" />
+        <ImageView android:id="@+id/choose_img" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/ic_wifi_selected" android:scaleType="centerCrop" android:layout_toRightOf="@+id/name" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/wifi_strength" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="@dimen/inner_margin_right" android:src="@drawable/ic_strength5" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

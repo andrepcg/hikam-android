@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/remind" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="UNKNOWN_DATA_0x14001">
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/connect_failed_info" />
+    <TextView android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/connect_failed_info_1" />
+    <TextView android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/connect_failed_info_2" />
+    <TextView android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/connect_failed_info_3" />
+    <Button android:textColor="@color/text_color_white" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/try_again" android:background="@drawable/hear" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginTop="10dp" android:text="@string/try_again" />
+</LinearLayout>

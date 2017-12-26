@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500fb">
+        <com.jwkj.widget.HeaderView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/header_img" android:layout_width="UNKNOWN_DATA_0x7f0500fc" android:layout_height="UNKNOWN_DATA_0x7f0500fc" android:layout_margin="10dp" android:src="@drawable/header_icon" android:scaleType="fitCenter" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+            <RelativeLayout android:id="@+id/show_user_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_alignParentTop="true">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sfsd" android:singleLine="true" />
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(7)" android:layout_toRightOf="@+id/user_name" />
+                <ImageView android:id="@+id/calllogo" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500fa" android:layout_height="UNKNOWN_DATA_0x7f0500f9" android:layout_marginRight="@dimen/inner_margin_right" android:src="@drawable/call_in_accept" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_alignParentBottom="true">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_blue" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inner_margin_right" android:text="2012-12-06 14:22" android:singleLine="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

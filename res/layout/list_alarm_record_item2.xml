@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/selector_list_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050109">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <com.jwkj.widget.AlarmHeaderView android:id="@+id/header_img" android:layout_width="UNKNOWN_DATA_0x7f050108" android:layout_height="UNKNOWN_DATA_0x7f050107" android:layout_marginLeft="@dimen/inner_margin_left" android:src="@drawable/header_icon" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/header_img">
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/mm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/allarm_robot" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/robot_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11939" android:layout_toRightOf="@+id/mm" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:layout_below="@+id/mm">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/nn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/allarm_type" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/allarm_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Motion Detection" android:layout_toRightOf="@+id/nn" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_blue" android:id="@+id/allarm_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2012-12-03 16:22" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

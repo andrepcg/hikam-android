@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+        <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lan_search" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@+id/list_local_device" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="0x0" android:divider="0x0" />
+</LinearLayout>

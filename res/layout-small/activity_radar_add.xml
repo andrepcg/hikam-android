@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/main_bg" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="vertical" n1:id="@id/layout_title" n1:background="@drawable/tab_bar" n1:layout_width="fill_parent" n1:layout_height="@dimen/title_height">
+        <ImageView n1:textColor="@color/text_color_white" n1:id="@id/back_btn" n1:background="@drawable/tab_button" n1:padding="@dimen/tab_btn_padding" n1:layout_width="@dimen/tab_btn_width" n1:layout_height="@dimen/tab_button_height" n1:layout_margin="@dimen/tab_btn_margin" n1:src="@drawable/back" n1:scaleType="center" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+        <TextView n1:textSize="@dimen/title_text_size" n1:textStyle="bold" n1:textColor="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/intelligent_online" n1:layout_centerInParent="true" />
+    </RelativeLayout>
+    <include layout="@layout/net_status_bar" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/text_size_normal" n1:textColor="@color/text_color_black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/item_left_right_margin" n1:layout_marginTop="@dimen/tab_picture_margin_top" n1:layout_marginRight="@dimen/item_left_right_margin" n1:text="@string/camera_need_network" />
+        <RelativeLayout n1:id="@id/layout_ssid" n1:background="@drawable/corner_tiao_single_bg" n1:layout_width="fill_parent" n1:layout_height="@dimen/qr_code_edit_height" n1:layout_marginLeft="@dimen/item_left_right_margin" n1:layout_marginTop="@dimen/tab_picture_margin_top" n1:layout_marginRight="@dimen/item_left_right_margin">
+            <TextView n1:textSize="@dimen/text_size_small_edit" n1:textColor="@color/text_color_black" n1:gravity="center|left" n1:id="@id/tv_ssid" n1:background="#00000000" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/inner_margin_left" n1:layout_marginRight="@dimen/inner_margin_right" n1:text="@string/please_choose_wireless" n1:singleLine="true" n1:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout n1:id="@id/layout_pwd" n1:background="@drawable/corner_tiao_single_bg" n1:layout_width="fill_parent" n1:layout_height="@dimen/qr_code_edit_height" n1:layout_marginLeft="@dimen/item_left_right_margin" n1:layout_marginTop="@dimen/tab_picture_margin_top" n1:layout_marginRight="@dimen/item_left_right_margin">
+            <EditText n1:textSize="@dimen/text_size_small_edit" n1:textColor="@color/text_color_black" n1:gravity="center|left" n1:id="@id/edit_pwd" n1:background="#00000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/inner_margin_left" n1:layout_marginRight="@dimen/inner_margin_right" n1:text="" n1:hint="@string/input_wifi_pwd" n1:singleLine="true" n1:inputType="textPassword" />
+        </RelativeLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:id="@id/showpassword_img" n1:layout_width="@dimen/check_box_width" n1:layout_height="@dimen/check_box_height" n1:layout_marginLeft="@dimen/item_left_right_margin" n1:layout_marginTop="@dimen/gd_arrow_offset" n1:src="@drawable/check_off" n1:scaleType="centerCrop" />
+            <TextView n1:textSize="@dimen/text_size_normal" n1:textColor="@color/text_color_black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/item_left_right_margin" n1:layout_marginTop="@dimen/gd_arrow_offset" n1:text="@string/display_password" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/item_left_right_margin" n1:layout_marginTop="@dimen/tab_picture_margin_top" n1:layout_marginRight="@dimen/item_left_right_margin">
+        <Button n1:textSize="@dimen/text_size_normal" n1:textColor="@color/text_color_white" n1:layout_gravity="center_horizontal" n1:id="@id/next" n1:background="@drawable/next" n1:layout_width="@dimen/bt_qr_next_width" n1:layout_height="@dimen/bt_qr_next_height" n1:text="@string/next" />
+        <TextView n1:textSize="@dimen/text_size_normal" n1:textColor="@color/text_color_black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/inner_margin_top" n1:text="@string/connect_failed_reason" />
+    </LinearLayout>
+</LinearLayout>

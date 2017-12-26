@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/main_bg" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/item_left_right_margin" android:layout_marginTop="@dimen/item_group_margin_top" android:layout_marginRight="@dimen/item_left_right_margin">
+            <RelativeLayout android:id="@+id/change_defence" android:background="@drawable/tiao_bg_up" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+                <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:id="@+id/defence_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/remote_denfence" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/defence_img" android:background="@drawable/ic_checkbox_off" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inner_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/imagedes" />
+                <ProgressBar android:id="@+id/progressBar_defence" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/change_record" android:background="@drawable/tiao_bg_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+                <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:id="@+id/record_text" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/remote_record" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/record_img" android:background="@drawable/ic_checkbox_off" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inner_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/imagedes" />
+                <ProgressBar android:id="@+id/progressBar_record" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

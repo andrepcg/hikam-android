@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/LinearLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/list_filter_user" android:background="@drawable/keyboard_num_column_bg" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500b3" android:cacheColorHint="0x0" android:divider="@drawable/list_item_line" android:dividerHeight="@dimen/keyboard_search_list_divider_height" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/match" android:background="@drawable/keyboard_prompt_column_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500b7" android:layout_below="@+id/list_filter_user">
+        <TextView android:textSize="@dimen/keyboard_number_size" android:textStyle="bold" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/phoneNumber" android:layout_width="match_parent" android:layout_height="match_parent" android:text="" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/match">
+        <ImageView android:background="@drawable/separator_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ba" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0">
+            <RelativeLayout android:id="@+id/button_one" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/one" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_two" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/two" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_three" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/three" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/separator_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ba" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0">
+            <RelativeLayout android:id="@+id/button_four" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/four" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_five" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/five" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_six" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/six" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/separator_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ba" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0">
+            <RelativeLayout android:id="@+id/button_seven" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/seven" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_eight" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/eight" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_nine" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/nine" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/separator_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ba" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0">
+            <RelativeLayout android:id="@+id/button_aite" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/aite" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_zero" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/zero" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_backspace" android:background="@drawable/keyboard_button" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/backspace" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/separator_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ba" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0">
+            <RelativeLayout android:id="@+id/button_vedio" android:background="@drawable/keyboard_button2" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/video" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/separator_vertical" android:layout_width="UNKNOWN_DATA_0x7f0500ba" android:layout_height="match_parent" />
+            <RelativeLayout android:id="@+id/button_vedio_phone" android:background="@drawable/keyboard_button2" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+                <ImageView android:focusable="false" android:layout_width="UNKNOWN_DATA_0x7f0500b6" android:layout_height="UNKNOWN_DATA_0x7f0500b4" android:src="@drawable/video_phone" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/separator_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ba" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/dialog_input_mask" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/dialog_input" />
+    </RelativeLayout>
+</RelativeLayout>

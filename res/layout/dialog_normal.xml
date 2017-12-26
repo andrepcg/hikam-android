@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/dialog_back" android:layout_width="UNKNOWN_DATA_0x7f0500d3" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/dialog_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f05008c">
+        <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/dialog_title_color" android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/delete_account" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@+id/separator" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/list_item_line" android:scaleType="center" />
+    <RelativeLayout android:id="@+id/dialog_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5a01">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_white" android:id="@+id/content_text" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginTop="10dp" android:text="从列表中删除11126？" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f05007e">
+        <RelativeLayout android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_blue" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/button1_text" android:background="@drawable/selector_list_dialog_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="3dp" android:text="@string/delete" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/btn_line" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        <RelativeLayout android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_blue" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/button2_text" android:background="@drawable/selector_list_dialog_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="3dp" android:text="@string/cancel" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

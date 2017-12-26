@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#9d9d9d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1901">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff7ff" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginLeft="15dp" android:layout_marginTop="3dp" android:layout_marginRight="3dp" android:layout_marginBottom="3dp" android:text="name" android:singleLine="true" />
+</LinearLayout>

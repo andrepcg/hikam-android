@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/img_back" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_back" />
+    <SurfaceView android:id="@+id/sfv" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@+id/rl_layer1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/img_play2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/monitor_ipc" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/player_tool_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/img_play" android:layout_width="UNKNOWN_DATA_0x2601" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="8dp" android:src="@drawable/playing_start" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="0x106000b" android:id="@+id/tv_time_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_toRightOf="@+id/img_play" android:layout_centerVertical="true" />
+        <SeekBar android:id="@+id/seek" android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="5dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="5dp" android:progressDrawable="@drawable/seekbar_bg" android:thumb="@drawable/seek_btn" android:layout_toLeftOf="@+id/tv_time_right" android:layout_toRightOf="@+id/tv_time_left" android:layout_centerVertical="true" />
+        <TextView android:textColor="0x106000b" android:id="@+id/tv_time_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_toLeftOf="@+id/img_mute" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/img_mute" android:background="@drawable/selector_play_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_call_sound_out_s" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

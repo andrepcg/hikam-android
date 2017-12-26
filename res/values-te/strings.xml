@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_unknown_issue">%1$sకి Google Play సేవలతో సమస్య ఉంది. సమస్య కొనసాగితే, దయచేసి సహాయం కోసం డెవలపర్‌ను సంప్రదించండి.</string>
+</resources>

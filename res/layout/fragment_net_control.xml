@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/bounceScrollView" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/item_left_right_margin" android:layout_marginRight="@dimen/item_left_right_margin">
+            <RelativeLayout android:id="@+id/net_type_bar" android:background="@drawable/tiao_bg_single" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072" android:layout_marginTop="@dimen/item_group_margin_top">
+                <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/net_type" android:layout_centerVertical="true" />
+                <ProgressBar android:id="@+id/progressBar_net_type" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/net_type_radio" android:background="@drawable/tiao_bg_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioGroup android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                    <RadioButton android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/radio_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_wired" />
+                    <RadioButton android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:id="@+id/radio_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_wifi" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/list_wifi_bar" android:background="@drawable/tiao_bg_up" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072" android:layout_marginTop="@dimen/item_group_margin_top">
+                <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/list_wifi" android:layout_centerVertical="true" />
+                <ProgressBar android:id="@+id/progressBar_list_wifi" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/list_wifi_content" android:background="@drawable/tiao_bg_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.jwkj.widget.MyListView android:id="@+id/list_wifi" android:background="#00000000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7801" android:cacheColorHint="0x0" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0500af" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/dialog_input_mask" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/dialog_input" />
+    </RelativeLayout>
+</RelativeLayout>

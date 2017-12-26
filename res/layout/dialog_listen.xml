@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/remind" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="UNKNOWN_DATA_0x14001">
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remind_align_camera" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/listenning1" android:layout_below="@+id/textView1" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_black" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/listenning2" android:layout_below="@+id/textView2" />
+    <ImageView android:id="@+id/img_insert" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="UNKNOWN_DATA_0xa001" android:src="@drawable/img_align_infrared" android:layout_below="@+id/textView3" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@+id/anim_load" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/animation_loading" android:layout_below="@+id/img_insert" android:layout_centerHorizontal="true" />
+    <TextView android:textStyle="bold" android:textColor="@color/text_color_blue" android:id="@+id/tv_wait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_wait" android:layout_below="@+id/anim_load" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:textColor="@color/text_color_white" android:id="@+id/bt_hear" android:background="@drawable/hear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hear" />
+        <Button android:textColor="@color/text_color_white" android:id="@+id/bt_no_hear" android:background="@drawable/hear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="@string/no_hear" />
+    </LinearLayout>
+</RelativeLayout>

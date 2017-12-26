@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/main_bg" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/item_left_right_margin" android:layout_marginRight="@dimen/item_left_right_margin"
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <EditText android:id="@+id/et" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@+id/btn_send" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="Send" android:layout_weight="1.0" android:onClick="Send" />
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area1" android:background="@drawable/tiao_bg_up" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072" android:layout_marginTop="@dimen/item_group_margin_top">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/remote" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area1" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content1" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/one8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area2" android:background="@drawable/tiao_bg_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/hall" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area2" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content2" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/two8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area3" android:background="@drawable/tiao_bg_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/window" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area3" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content3" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/three8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area4" android:background="@drawable/tiao_bg_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/balcony" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area4" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content4" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/four8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area5" android:background="@drawable/tiao_bg_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/bedroom" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area5" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content5" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/five8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area6" android:background="@drawable/tiao_bg_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/kitchen" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area6" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content6" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/six8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area7" android:background="@drawable/tiao_bg_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/courtyard" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area7" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content7" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/seven8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area8" android:background="@drawable/tiao_bg_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/door_lock" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area8" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content8" android:background="@drawable/tiao_bg_center" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/eight8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/change_defence_area9" android:background="@drawable/tiao_bg_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050072">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/other" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@+id/progressBar_defence_area9" android:layout_width="UNKNOWN_DATA_0x7f0500a3" android:layout_height="UNKNOWN_DATA_0x7f0500a3" android:layout_marginRight="@dimen/inner_margin_right" android:indeterminateDrawable="@anim/progress_white" android:indeterminateDuration="560000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/defence_area_content9" android:background="@drawable/tiao_bg_bottom" android:paddingLeft="@dimen/inner_margin_left" android:paddingRight="@dimen/inner_margin_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine1" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine2" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine3" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine4" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine5" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine6" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine7" android:background="@drawable/button_bg_dialog_ok" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nine8" android:background="@drawable/button_bg_dialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f05007a" android:layout_height="UNKNOWN_DATA_0x7f05007a" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1401" />
+    </LinearLayout>
+</ScrollView>

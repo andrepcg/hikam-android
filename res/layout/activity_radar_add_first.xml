@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+        <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="UNKNOWN_DATA_0x7f050113" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intelligent_online" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <include layout="@layout/net_status_bar" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/layout_wait_di" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_group_margin_top">
+        <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connect_power" />
+        <ImageView android:background="@drawable/connect_power" android:layout_width="UNKNOWN_DATA_0x7f050060" android:layout_height="UNKNOWN_DATA_0x7f05005c" android:layout_marginTop="@dimen/connect_power_margin_top" />
+        <TextView android:textSize="@dimen/connect_power_text_size" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="@dimen/item_group_margin_top" android:layout_marginRight="15dp" android:text="@string/connect_power_wait" />
+        <Button android:textColor="@color/text_color_white" android:id="@+id/next" android:background="@drawable/next" android:layout_width="UNKNOWN_DATA_0x7f0500d0" android:layout_height="UNKNOWN_DATA_0x7f0500cf" android:layout_marginTop="30dp" android:text="@string/next" />
+    </LinearLayout>
+</LinearLayout>

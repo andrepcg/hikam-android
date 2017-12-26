@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <AbsoluteLayout android:id="@+id/layout_top" android:background="@color/text_color_black" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/layout_bottom">
+        <ImageView android:id="@+id/temp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:scaleType="fitCenter" />
+        <ImageView android:id="@+id/layout_cut" android:background="@drawable/cut_bg" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" />
+    </AbsoluteLayout>
+    <RelativeLayout android:id="@+id/layout_bottom" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050075" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/header_img" android:layout_width="UNKNOWN_DATA_0x7f050077" android:layout_height="UNKNOWN_DATA_0x7f050077" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050076" android:layout_margin="10dp" android:src="@drawable/back" android:scaleType="center" android:layout_toLeftOf="@+id/header_img" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:textColor="@color/text_color_white" android:id="@+id/save" android:background="@drawable/tab_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050076" android:layout_margin="10dp" android:text="@string/save" android:layout_toRightOf="@+id/header_img" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

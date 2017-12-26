@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/parent" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500ad">
+        <RelativeLayout android:id="@+id/main" android:background="@drawable/shake_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0500a8" android:layout_marginLeft="@dimen/ipc_item_left_right_margin" android:layout_marginRight="@dimen/ipc_item_left_right_margin" android:layout_marginBottom="@dimen/item_group_margin_top">
+            <com.jwkj.widget.HeaderView android:id="@+id/header_img" android:layout_width="UNKNOWN_DATA_0x7f0500a9" android:layout_height="UNKNOWN_DATA_0x7f0500a9" android:layout_marginLeft="@dimen/inner_margin_left" android:src="@drawable/header_icon" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/operator_img" android:layout_toRightOf="@+id/header_img">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                    <ImageView android:id="@+id/type_img" android:layout_width="UNKNOWN_DATA_0x7f0500ab" android:layout_height="UNKNOWN_DATA_0x7f0500ab" android:src="@drawable/ic_device_type_ipc" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginBottom="5dp" android:layout_weight="1.0" android:layout_below="@+id/type_img">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_white" android:id="@+id/ipc_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="张三" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:id="@+id/ipc_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="192.168.1.1" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@+id/operator_img" android:layout_width="UNKNOWN_DATA_0x7f0500aa" android:layout_height="UNKNOWN_DATA_0x7f0500aa" android:layout_marginRight="@dimen/inner_margin_right" android:src="@drawable/add" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

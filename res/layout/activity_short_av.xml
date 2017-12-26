@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.p2p.core.P2PView android:id="@+id/pView" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/control_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_alignParentBottom="true"
+        <RelativeLayout android:id="@+id/top" android:background="@color/playback_btn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+            <TextView android:textSize="17dp" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nowTime" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="0:00:00" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <SeekBar android:id="@id/seek_bar" android:paddingLeft="12dp" android:paddingTop="3dp" android:paddingRight="12dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="5dp" android:progressDrawable="@drawable/seekbar_bg" android:thumb="@drawable/seek_btn" android:layout_toLeftOf="@+id/totalTime" android:layout_toRightOf="@+id/nowTime" android:layout_centerVertical="true" />
+            <TextView android:textSize="17dp" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/totalTime" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="0:00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/center_solid" android:background="#90ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_below="@+id/top" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/playback_btn" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/center_solid" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/previous" android:background="@drawable/selector_play_back" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:src="@drawable/playing_previous" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/pause" android:background="@drawable/selector_play_back" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:src="@drawable/playing_pause" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/next" android:background="@drawable/selector_play_back" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:src="@drawable/playing_next" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/close_voice" android:background="@drawable/selector_play_back" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:src="@drawable/btn_call_sound_out" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

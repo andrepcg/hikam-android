@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/layout_title" android:background="@drawable/tab_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050124">
+        <ImageView android:textColor="@color/text_color_white" android:id="@+id/back_btn" android:background="@drawable/tab_button" android:padding="@dimen/tab_btn_padding" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:src="@drawable/back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qr_code" android:layout_centerInParent="true" />
+        <Button android:textColor="@color/text_color_white" android:id="@+id/make_btn" android:background="@drawable/tab_button" android:layout_width="UNKNOWN_DATA_0x7f050112" android:layout_height="match_parent" android:layout_margin="@dimen/tab_btn_margin" android:text="@string/make" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/layout_ssid" android:background="@drawable/corner_tiao_single_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050090" android:layout_marginLeft="@dimen/item_left_right_margin" android:layout_marginTop="@dimen/item_group_margin_top" android:layout_marginRight="@dimen/item_left_right_margin">
+            <EditText android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/edit_ssid" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginRight="@dimen/inner_margin_right" android:text="" android:hint="@string/input_wifi_ssid" android:singleLine="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/layout_pwd" android:background="@drawable/corner_tiao_single_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050090" android:layout_marginLeft="@dimen/item_left_right_margin" android:layout_marginTop="@dimen/item_group_margin_top" android:layout_marginRight="@dimen/item_left_right_margin">
+            <EditText android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/edit_pwd" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginRight="@dimen/inner_margin_right" android:text="" android:hint="@string/input_wifi_pwd" android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/image_qrcode" android:background="@drawable/qr_image_back" android:layout_width="UNKNOWN_DATA_0x10c01" android:layout_height="UNKNOWN_DATA_0x10c01" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

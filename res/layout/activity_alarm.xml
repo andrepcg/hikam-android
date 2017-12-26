@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/alarm_dialog" android:background="@drawable/alarm_dialog_bg" android:layout_width="UNKNOWN_DATA_0x7f05004b" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@+id/alarm_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f05004a">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tv_info" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_above="@+id/separator_top" />
+            <ImageView android:id="@+id/separator_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa01" android:src="@drawable/list_item_line" android:scaleType="center" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/alarm_center" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050048">
+            <ImageView android:id="@+id/alarm_img" android:layout_width="UNKNOWN_DATA_0x7f050049" android:layout_height="match_parent" android:src="@anim/allarming" android:scaleType="center" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/alarm_img"
+                <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:text="@string/allarm_robot" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:text="@string/allarm_type" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="3.0">
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/alarm_id_text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:text="11939" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/alarm_type_text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:text="Motion Detection" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/layout_area_chanel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050044">
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="防区：花园" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_color_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/chanel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="通道：3号" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/alarm_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f050045"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_blue" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/monitor_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/check" android:layout_weight="1.0" />
+                <ImageView android:background="@drawable/btn_line" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_blue" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/ignore_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/ignore" android:layout_weight="1.0" />
+                <ImageView android:background="@drawable/btn_line" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" />
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/shield_btn" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/shielded" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/alarm_input" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f05004b" android:layout_height="UNKNOWN_DATA_0x7f050046" android:layout_below="@+id/alarm_dialog" android:layout_centerHorizontal="true">
+        <RelativeLayout android:background="@drawable/alarm_input_bg" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <EditText android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/password" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/inner_margin_left" android:layout_marginRight="@dimen/inner_margin_right" android:text="" android:hint="@string/input_monitor_pwd" android:singleLine="true" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_color_gray" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/alarm_go" android:background="@drawable/alarm_input_btn" android:layout_width="UNKNOWN_DATA_0x7f050047" android:layout_height="match_parent" android:text="Go" />
+    </LinearLayout>
+</RelativeLayout>

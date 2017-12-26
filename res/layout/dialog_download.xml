@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/dialog_back" android:layout_width="UNKNOWN_DATA_0x7f0500d3" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/dialog_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f05008c">
+        <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/dialog_title_color" android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inner_margin_left" android:text="@string/prompt" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@+id/separator" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/list_item_line" android:scaleType="center" />
+    <RelativeLayout android:id="@+id/dialog_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f05007f">
+        <ProgressBar android:id="@+id/content_text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:max="100" android:progress="0" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@*style/Widget.ProgressBar.Horizontal" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f05007e">
+        <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/text_color_blue" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/button2_text" android:background="@drawable/selector_list_dialog_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="3dp" android:text="@string/ensure" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

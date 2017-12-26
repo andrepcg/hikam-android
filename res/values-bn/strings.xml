@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_unknown_issue">Google Play পরিষেবাগুলির সাথে %1$s এর সমস্যা হচ্ছে৷ যদি সমস্যাটি থেকে যায় তাহলে অনুগ্রহ করে সহায়তার জন্য বিকাশকারীর সাথে যোগাযোগ করুন।</string>
+</resources>
